@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *  * _fork - calls fork function and checks its success
- *   * @cmd: command to execute
- *    * @av: command's argument
- *     *
- *      * Return: process id
- *       */
+ * _fork - calls fork function and checks its success
+ * @cmd: command to execute
+ * @av: command's argument
+ *
+ * Return: process id
+ */
 int _fork(char *cmd, char **av)
 {
 	int id, status;

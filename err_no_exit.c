@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *  * err_no_exit - prints error message without exiting shell
- *   * @prog: name of shell program
- *    * @msg: error message
- *     *
- *      * Return: nothing
- *       */
+ * err_no_exit - prints error message without exiting shell
+ * @prog: name of shell program
+ * @msg: error message
+ *
+ * Return: nothing
+ */
 void err_no_exit(char *prog, char *msg)
 {
 	int i, j, k;

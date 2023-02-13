@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *  * _strdup - creates a duplicate of string
- *   * @str: string to duplicated
- *    *
- *     * Return: malloc'd pointer to duplicate string
- *      */
+ * _strdup - creates a duplicate of string
+ * @str: string to duplicated
+ *
+ * Return: malloc'd pointer to duplicate string
+ */
 char *_strdup(const char *str)
 {
 	int i, size;

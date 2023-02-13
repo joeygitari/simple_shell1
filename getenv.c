@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *  * _getenv - check for environment variables
- *   * @name: name of environment variable
- *    *
- *     * Return: pointer to variable's value
- *      */
+ * _getenv - check for environment variables
+ * @name: name of environment variable
+ *
+ * Return: pointer to variable's value
+ */
 char *_getenv(const char *name)
 {
 	int i, j, flag;

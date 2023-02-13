@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- *  * main - shell entry point
- *   * @argc: argument count
- *    * @argv: argument list
- *     * @envp: environment variable
- *      *
- *       * Return: Always 0
- *        */
+ * main - shell entry point
+ * @argc: argument count
+ * @argv: argument list
+ * @envp: environment variable
+ *
+ * Return: Always 0
+ */
 int main(int __attribute__((unused)) argc, char **argv,
 				__attribute__((unused))char **envp)
 {

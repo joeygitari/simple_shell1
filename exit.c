@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *  * _atoi - convert string to integer
- *   * @str: string to convert to integer
- *    *
- *     * Return: integer
- *      */
+ * _atoi - convert string to integer
+ * @str: string to convert to integer
+ *
+ * Return: integer
+ */
 long int _atoi(char *str)
 {
 	long int i, res = 0, p_value = 1;
@@ -20,16 +20,16 @@ long int _atoi(char *str)
 	return (res);
 }
 /**
- *  * ext - checks if the user has entered exit
- *   * @str: user input
- *    * @prog: program name to be used in error message
- *     * @av: pointers to arguments
- *      *
- *       * Description: allows the user to exit the program
- *        * Can also be used to set exit status
- *         *
- *          * Return: 0 on success, 1 on failure
- *           */
+ * ext - checks if the user has entered exit
+ * @str: user input
+ * @prog: program name to be used in error message
+ * @av: pointers to arguments
+ *
+ * Description: allows the user to exit the program
+ * Can also be used to set exit status
+ *
+ * Return: 0 on success, 1 on failure
+ */
 int ext(char *str, char *prog, char **av)
 {
 	int i, j;
@@ -47,7 +47,7 @@ int ext(char *str, char *prog, char **av)
 			{
 
 				err_no_exit(prog, ": exit: too many arguments\n");
-			
+
 				return (1);
 			}
 		if (av[1][0] == '\0')
@@ -73,6 +73,5 @@ int ext(char *str, char *prog, char **av)
 		free(str);
 		exit((int) status);
 	}
-
 	return (0);
 }

@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *  * _isatty - tells you if the standard input are associated with terminal
- *   * @mode: pointer to file descriptor
- *    *
- *     * Return: nothing
- *      */
+ * _isatty - tells you if the standard input are associated with terminal
+ * @mode: pointer to file descriptor
+ *
+ * Return: nothing
+ */
 void _isatty(int *mode)
 {
 	if (!isatty(0))

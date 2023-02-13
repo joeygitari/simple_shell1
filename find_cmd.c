@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *  * find_cmd - finds command if its exists
- *   * @cmd: command to find
- *    * @command: absolute path of command to execute
- *     *
- *      * Return: Return 1 if command is found, else 0;
- *       */
+ * find_cmd - finds command if its exists
+ * @cmd: command to find
+ * @command: absolute path of command to execute
+ *
+ * Return: Return 1 if command is found, else 0;
+ */
 int find_cmd(char *cmd, char *command)
 {
 	char *path, *path_cpy, *abs_path, *token;

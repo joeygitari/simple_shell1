@@ -19,36 +19,36 @@
 extern char **environ;
 
 /**
- *  * struct list - structure of commands and arguments
- *   * @type: command execution pattern
- *    * @cmd: command to execute
- *     * @arg: arguments for the commands
- *      * @next: pointer to the next list
- *       *
- *        * Description: command linked list node structure
- *         */
+ * struct list - structure of commands and arguments
+ * @type: command execution pattern
+ * @cmd: command to execute
+ * @arg: arguments for the commands
+ * @next: pointer to the next list
+ *
+ * Description: command linked list node structure
+ */
 typedef struct list
 {
-		int type;
-			char *cmd;
-				char **arg;
-					struct list *next;
+	int type;
+	char *cmd;
+	char **arg;
+	struct list *next;
 } cmd_list;
 
 /**
- *  * struct list_s - singly linked list
- *   * @str: string - (malloc'ed string)
- *    * @len: length of the string
- *     * @next: points to the next node
- *      *
- *       * Description: singly linked list node structure
- *        * for path directories
- *         */
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for path directories
+ */
 typedef struct list_s
 {
-		char *str;
-			unsigned int len;
-				struct list_s *next;
+	char *str;
+	unsigned int len;
+	struct list_s *next;
 } path_list;
 
 void _isatty(int *mode);

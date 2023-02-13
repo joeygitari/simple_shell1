@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *  * add_path_node - adds nodes for different path directories
- *   * @head: pointer to the beginning of the list
- *    * @str: path directory
- *     *
- *      * Return: address of new node
- *       */
+ * add_path_node - adds nodes for different path directories
+ * @head: pointer to the beginning of the list
+ * @str: path directory
+ *
+ * Return: address of new node
+ */
 path_list *add_path_node(path_list **head, const char *str)
 {
 	unsigned int i;

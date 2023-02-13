@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- *  * parse - parses string into words
- *   * @str: string to parse
- *    * @del: delimiter
- *     * @des: pointer to strings of words
- *      *
- *       * Return: number of words
- *        */
+ * parse - parses string into words
+ * @str: string to parse
+ * @del: delimiter
+ * @des: pointer to strings of words
+ *
+ * Return: number of words
+ */
 int parse(char *str, const char *del, char **des)
 {
 	int i;

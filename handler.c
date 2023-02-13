@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *  * handler - handles terminate signal
- *   * @num: number
- *    *
- *     * Return: nothing
- *      */
+ * handler - handles terminate signal
+ * @num: number
+ *
+ * Return: nothing
+ */
 void handler(int num)
 {
 	(void) num;
